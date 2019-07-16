@@ -1,0 +1,42 @@
+.alert-p {
+  width: 100%;
+  color: rgba(255, 0, 0, 0.808);
+  font-size: 14px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: url("signup.3.jpg");
+  background-size: cover;
+}
+input.text-field{
+  background-color: rgba(255, 255, 255,0.4);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+input.text-field:focus{
+  background-color: rgba(255, 255, 255,0);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  outline: none;
+  border-color:blue;
+}
+input.text-field::placeholder{
+  color: black;
+}
+div.body{
+color: white;
+background-color: rgba(0, 60, 255, 0.4);
+margin-top: 30px ;
+margin-right: 50px ;
+margin-bottom: 30px ;
+margin-left: 280px ;
+padding: 10px;
+text-align: center;
+width: 50%;
+font-weight: bold;
+}
+

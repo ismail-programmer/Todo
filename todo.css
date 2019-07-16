@@ -1,0 +1,85 @@
+span.add-btns {
+    user-select: none;
+    cursor: pointer;   
+}
+span.rem-btns {
+    user-select: none;
+    cursor: pointer;  
+
+/* top: 10; */
+/* right: 0; */
+padding: 7%;
+
+}
+.rem-btns:hover{
+    color: red
+}
+button.add-btns{
+    color: black;
+    font-weight: bolder;
+}
+
+span.done-btns {
+    user-select: none;
+    cursor: pointer;
+    text-align: left;
+    margin: 10px;
+
+}
+.done-btns:hover{
+    color: green;
+}
+.done{
+    text-decoration-line: line-through;
+    color: black;
+}
+span.done{
+    width: 70px;
+}
+div.head{
+    background-color: rgb(135, 206, 235,0.7);
+    text-align: center;
+    margin: 10px;
+    padding: 2%
+}
+h2{
+    text-align: center;
+    color: yellow;
+}
+body{
+    background-image: url("todo.1.jpg");
+    background-size: cover;
+}
+div.todo-list{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    font-size: 30px;
+    color: white;
+    width: 1000px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0,0.7);
+}
+li:hover{
+    background-color: grey;
+}
+input#todo-in{
+    background-color: rgba(255, 255, 255,0);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+    input#todo-in:focus{
+        background-color: rgba(255, 255, 255,0);
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        outline: none;
+        border-color:blue;
+    }
+    input#todo-in::placeholder{
+        color: black;
+    }
